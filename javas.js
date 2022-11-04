@@ -14,30 +14,30 @@ function verificar() {
     if (genero[1].checked) {
         if (idade2 >= 0 && idade2 < 10) {
         txt.innerHTML=`Você tem ${idade2} anos e do sexo feminino`
-        img2.src='foto-bebe-m.png'
+        img2.src='imagens/foto-bebe-m.png'
         } else if (idade2 < 21) {
         txt.innerHTML=`Você tem ${idade2} anos  e do sexo feminino!`
-        img2.src='foto-jovem-f.png'
+        img2.src='imagens/foto-jovem-f.png'
         } else if (idade2 < 60) {
         txt.innerHTML=`Você tem ${idade2} anos  e do sexo feminino`
-        img2.src='foto-adulto-f.png'
+        img2.src='imagens/foto-adulto-f.png'
         } else {
         txt.innerHTML=`Você tem ${idade2} anos  e do sexo feminino`
-        img2.src='foto-idoso-f.png'
+        img2.src='imagens/foto-idoso-f.png'
         }
     } else if (genero[0].checked) {
         if (idade2 >= 0 && idade2 < 10) {
         txt.innerHTML=`Você tem ${idade2} anos e do sexo masculino`
-        img2.src='foto-bebe-m.png'
+        img2.src='imagens/foto-bebe-m.png'
         } else if (idade2 < 21) {
         txt.innerHTML=`Você tem ${idade2} anos e do sexo masculino`
-        img2.src='foto-jovem-m.png'
+        img2.src='imagens/foto-jovem-m.png'
         } else if (idade2 < 60) {
         txt.innerHTML=`Você tem ${idade2} anos e do sexo masculino`
-        img2.src='foto-adulto-m.png'
+        img2.src='imagens/foto-adulto-m.png'
         } else {
         txt.innerHTML=`Você tem ${idade2} anos e do sexo masculino`
-        img2.src='foto-idoso-m.png'
+        img2.src='imagens/foto-idoso-m.png'
         }
     }
 }
